@@ -15,6 +15,7 @@ If you are interested in debugging other languages or technologies, here is our 
 
 This guide is about fixing a bug, but it's worth mentioning how to prevent the majority of the bugs in the first place:
 + **ABC = Always Be Closing** the tags as a priority. If you open a tag `<p>`, close it immediately! Like this: `<p></p>`, and then proceed to fill the inner HTML content.
++ PRO TIP: Make sure you split the open and closing tags to input what you want in the element tags. It makes it easier to understand what you're adding. Also indent the children elements for ease in readability along the way.
 + **Use a code formatter** that indents your code automatically. Most of the bugs at first come because your code is messy and challenging to follow with your eyes. You end up opening/closing tags in the wrong place.
 
 ## Three Debugging tools for HTML
